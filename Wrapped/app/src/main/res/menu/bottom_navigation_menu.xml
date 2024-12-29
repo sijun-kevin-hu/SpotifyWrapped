@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/artistFrag"
+        android:enabled="true"
+        android:icon="@drawable/outline_home_24"
+        android:title="@string/menu_wrapped_text"/>
+    <item
+        android:id="@+id/friendFrag"
+        android:enabled="true"
+        android:icon="@drawable/outline_group_24"
+        android:title="@string/menu_friends_text"/>
+    <item
+        android:id="@+id/profileFrag"
+        android:actionLayout="@layout/fragment_profile"
+        android:enabled="true"
+        android:icon="@drawable/sharp_account_circle_24"
+        android:title="Profile"/>
+</menu>

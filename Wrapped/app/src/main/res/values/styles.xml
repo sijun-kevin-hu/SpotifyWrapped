@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- M3 CircularProgressIndicator Legacy styles -->
+    <style name="Widget.Material3.CircularProgressIndicator.Legacy" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="trackThickness">4dp</item>
+        <item name="indicatorColor">?attr/colorPrimary</item>
+        <item name="trackColor">@android:color/transparent</item>
+        <item name="trackCornerRadius">0dp</item>
+       <!-- <item name="indicatorTrackGapSize">0dp</item> -->
+    </style>
+    <style name="Widget.Material3.CircularProgressIndicator.Legacy.Medium" parent="Widget.MaterialComponents.CircularProgressIndicator.Medium"/>
+    <style name="Widget.Material3.CircularProgressIndicator.Legacy.Small" parent="Widget.MaterialComponents.CircularProgressIndicator.Small"/>
+    <style name="Widget.Material3.CircularProgressIndicator.Legacy.ExtraSmall" parent="Widget.MaterialComponents.CircularProgressIndicator.ExtraSmall"/>
+</resources>

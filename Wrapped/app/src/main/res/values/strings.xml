@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Wrapped</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="artist_fragment_label">Artist Summary</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="menu_wrapped_text">Wrapped</string>
+    <string name="menu_friends_text">Friends</string>
+    <string name="empty" />
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="title_activity_login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout_desc">Sign Out</string>
+    <string name="sync_button_desc">Sync</string>
+    <string name="sync_button_label">Sync</string>
+    <string name="friendRequestToggleLabel">Notify me about friend requests</string>
+    <string name="friendWrappedNotificationToggleLabel">Notify me about my friends\' Wrappeds</string>
+    <string name="friendToggleAccessLabel">Let this friend see my Wrapped</string>
+    <string name="termsofserviceText">I agree to the terms of service.</string>
+    <string name="share_desc">Share</string>
+    <string name="friendsPageTitle">Friends</string>
+    <string name="registerPageTitle">Register</string>
+    <string name="loginTitleText">Login</string>
+    <string name="accountTitlePage">Account</string>
+    <string name="duoWrappedTitle">Duo Wrapped!</string>
+    <string name="mainWrappedTitle">Spotify Wrapped!</string>
+    <string name="pastWrapsTitle">Past Wraps!</string>
+    <string name="lastYearText">Last year...</string>
+    <string name="placeholderImageDesc">Placeholder Image</string>
+    <string name="topArtistText">Top Artist</string>
+    <string name="signUpInsteadText">Sign Up Instead</string>
+    <string name="signInInsteadText">Sign In Instead</string>
+    <string name="deleteAccountText">Delete Account</string>
+    <string name="unlinkSpotifyButton">Unlink Spotify</string>
+    <string name="updateLoginText">Update Login Info</string>
+    <string name="seePreviousYearsText">See Previous Years</string>
+    <string name="topArtistsText">Top Artists</string>
+    <string name="you">You</string>
+    <string name="number1">#1</string>
+    <string name="number2">#2</string>
+    <string name="number3">#3</string>
+    <string name="monthText">Month</string>
+    <string name="sixMonths">6 Months</string>
+    <string name="yearText">Year</string>
+    <string name="yourTopArtistWas">Your Top Artist was...</string>
+    <string name="timeSelectorText">See data for last...</string>
+    <string name="nextPageText">Next Page</string>
+    <string name="topSongsText">Top Songs</string>
+    <string name="topGenresText">Top Genres</string>
+    <string name="accept">Accept</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="removeFriend">Delete Friend</string>
+    <string name="deleteConfirmationTitle">Delete Friend?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirmDelete">Delete</string>
+    <string name="confirmUnlink">Unlink</string>
+    <string name="deleteConfirmationMessage">You will not be able to undo this.</string>
+    <string name="addFriendTitle">Send Friend Request</string>
+    <string name="userID">User ID</string>
+    <string name="send">Send</string>
+    <string name="darkModeToggle">Turn on Dark Mode</string>
+    <string name="deleteAccountConfirmationTitle">Delete Account?</string>
+    <string name="unlinkAccountConfirmationTitle">Unlink Spotify?</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="newPassword">New Password</string>
+    <string name="submit">Submit</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="fcm_message">Wrapped</string>
+    <string name="default_notification_channel_name">Wrapped</string>
+</resources>

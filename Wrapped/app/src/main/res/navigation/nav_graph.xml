@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/artistFrag">
+    <fragment
+        android:id="@+id/artistFrag"
+        android:name="gt.fel2.wrapped.MainSummary"
+        android:label="Wrapped"
+        tools:layout="@layout/fragment_mainwrapped" >
+        <action
+            android:id="@+id/action_artistFrag_to_spotifyAPI2"
+            app:destination="@id/spotifyAPI2" />
+    </fragment>
+    <fragment
+        android:id="@+id/friendFrag"
+        android:name="gt.fel2.wrapped.FriendFragment"
+        android:label="Friends"
+        tools:layout="@layout/fragment_friend" >
+        <action
+            android:id="@+id/action_friendFrag_to_duoWrapped"
+            app:destination="@id/duoWrapped"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_friendFrag_to_addFriend"
+            app:destination="@id/addFriend"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFrag"
+        android:name="gt.fel2.wrapped.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFrag_to_pastWrapped"
+            app:destination="@id/pastWrapped"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_profileFrag_to_login"
+            app:destination="@id/login"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_profileFrag_to_spotifyAPI2"
+            app:destination="@id/spotifyAPI2" />
+        <action
+            android:id="@+id/action_profileFrag_to_updateLogin"
+            app:destination="@id/updateLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/duoWrapped"
+        android:name="gt.fel2.wrapped.DuoWrapped"
+        android:label="fragment_duo_wrapped"
+        tools:layout="@layout/fragment_duo_wrapped" >
+        <action
+            android:id="@+id/action_duoWrapped_to_friendFrag"
+            app:destination="@id/friendFrag" />
+        <argument
+            android:name="duoID"
+            app:argType="string" />
+        <argument
+            android:name="duoName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/pastWrapped"
+        android:name="gt.fel2.wrapped.PastWrapped"
+        android:label="fragment_past_wrapped"
+        tools:layout="@layout/fragment_past_wrapped" />
+    <fragment
+        android:id="@+id/addFriend"
+        android:name="gt.fel2.wrapped.AddFriend"
+        android:label="fragment_add_friend"
+        tools:layout="@layout/fragment_add_friend" >
+        <action
+            android:id="@+id/action_addFriend_to_friendFrag"
+            app:destination="@id/friendFrag"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <activity
+        android:id="@+id/login"
+        android:name="gt.fel2.wrapped.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/spotifyAPI2"
+        android:name="gt.fel2.wrapped.SpotifyAPI"
+        android:label="fragment_spotify_a_p_i"
+        tools:layout="@layout/fragment_spotify_a_p_i" />
+    <fragment
+        android:id="@+id/updateLogin"
+        android:name="gt.fel2.wrapped.UpdateLogin"
+        android:label="UpdateLogin" >
+        <action
+            android:id="@+id/action_updateLogin_to_profileFrag"
+            app:destination="@id/profileFrag" />
+    </fragment>
+</navigation>

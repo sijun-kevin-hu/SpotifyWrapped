@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/pageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accountTitlePage"
+                android:textAppearance="?attr/textAppearanceDisplaySmall"
+                android:textStyle="bold"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="40dp"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/profileCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/materialCardViewFilledStyle">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:id="@+id/userFullName"
+                            android:text="" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?attr/textAppearanceBodyMedium"
+                            android:id="@+id/userID"
+                            android:text="" />
+                    </LinearLayout>
+
+                    <Button
+                        style="?attr/materialIconButtonOutlinedStyle"
+                        android:id="@+id/signOutButton"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/logout_desc"
+                        app:strokeWidth="0dp"
+                        app:icon="@drawable/baseline_logout_24" />
+
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <Button
+                style="?attr/materialButtonOutlinedStyle"
+                android:id="@+id/unlinkButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/unlinkSpotifyButton"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                style="?attr/materialButtonOutlinedStyle"
+                android:id="@+id/deleteAccountButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/deleteAccountText"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                style="?attr/materialButtonOutlinedStyle"
+                android:id="@+id/loginInfoButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/updateLoginText"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                style="?attr/materialButtonStyle"
+                android:id="@+id/prevYearButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seePreviousYearsText"
+                android:layout_marginTop="20dp"
+                />
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:checked="true"
+                android:id="@+id/notifyFriendRequestsToggle"
+                android:text="@string/friendRequestToggleLabel"/>
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:checked="true"
+                android:id="@+id/notifyTheirToggle"
+                android:text="@string/friendWrappedNotificationToggleLabel"/>
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:checked="false"
+                android:id="@+id/darkModeToggle"
+                android:layout_marginBottom="130dp"
+                android:text="@string/darkModeToggle"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/sync_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="108dp"
+            android:layout_gravity="bottom|end"
+            android:contentDescription="@string/sync_button_desc"
+            android:text="@string/sync_button_label"
+            app:icon="@drawable/baseline_sync_24"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</androidx.core.widget.NestedScrollView>

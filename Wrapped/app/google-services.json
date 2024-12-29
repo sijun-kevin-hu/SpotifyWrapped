@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1059863062007",
+    "project_id": "wrapped-63fab",
+    "storage_bucket": "wrapped-63fab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059863062007:android:940c8ca842ad6bf479baf2",
+        "android_client_info": {
+          "package_name": "gt.fel2.wrapped"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2gXZmaaFJ8YqR0veJleQOUaP4vEdDrSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
