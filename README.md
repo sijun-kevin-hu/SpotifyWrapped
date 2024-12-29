@@ -1,1 +1,1 @@
-# Spotify Wrapped Course Project
+# Spotify Wrapped Group Course Project
